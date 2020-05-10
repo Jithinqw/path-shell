@@ -1,0 +1,30 @@
+{
+  "name": "path-shell",
+  "version": "0.0.1",
+  "description": "Wrapper for node root files",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "shell-env": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jithinqw/path-shell.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Jithin Zacharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jithinqw/path-shell/issues"
+  },
+  "homepage": "https://github.com/Jithinqw/path-shell#readme"
+}
