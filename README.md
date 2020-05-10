@@ -24,7 +24,7 @@ console.log(pathShell.npmHistory());
 
 //get file contents of any file in $PATH
 console.log(pathShell.anyFile('.pgAdmin4.startup.log'));
-//<-----pag admin data-------->
+//<-----pg admin data-------->
 ```
 
 # Running tests
