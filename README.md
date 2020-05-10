@@ -2,6 +2,13 @@
 
 Nodejs wrapper around files existing on $PATH.
 
+[![Build Status](https://travis-ci.com/Jithinqw/path-shell)
+https://travis-ci.com/Jithinqw/path-shell.svg?branch=master)]
+
+# Installation
+
+Install using `npm i path-shell --save`.
+
 # Usage
 
 ```javascript
@@ -19,3 +26,7 @@ console.log(pathShell.npmHistory());
 console.log(pathShell.anyFile('.pgAdmin4.startup.log'));
 //<-----pag admin data-------->
 ```
+
+# Running tests
+
+You can run tests by running `npm test`.
