@@ -1,6 +1,6 @@
 # path-shell
 
-Nodejs wrapper around files existing on $PATH.
+Nodejs wrapper around files existing on root.
 
 [![Build Status](https://travis-ci.com/Jithinqw/path-shell)
 https://travis-ci.com/Jithinqw/path-shell.svg?branch=master)]
