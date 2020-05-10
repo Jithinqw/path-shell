@@ -13,19 +13,26 @@ Install using `npm i path-shell --save`.
 
 ```javascript
 const pathShell = require('path-shell');
-
+const mode = 'json'
 //get history
-console.log(pathShell.history());
-//=>node index.js
+console.log(pathShell.history(mode));
+//=>{"0":node index.js}
 
 //get npm terminal history
+const mode= 'array'
 console.log(pathShell.npmHistory());
-//=>const user = require('express')();
+//=>['const user = require('express')();']
 
 //get file contents of any file in $PATH
 console.log(pathShell.anyFile('.pgAdmin4.startup.log'));
 //<-----pg admin data-------->
 ```
+
+Currently supports 
+
+- Text (default)
+- Array
+- JSON
 
 # Running tests
 
