@@ -26,3 +26,7 @@ console.log(pathShell.npmHistory());
 console.log(pathShell.anyFile('.pgAdmin4.startup.log'));
 //<-----pag admin data-------->
 ```
+
+# Running tests
+
+You can run tests by running `npm test`.
