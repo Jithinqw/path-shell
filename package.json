@@ -5,14 +5,14 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "tests"
+    "test": "test"
   },
   "dependencies": {
     "shell-env": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm tests"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
