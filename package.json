@@ -7,12 +7,13 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {
-    "shell-env": "^3.0.0"
+  "dependencies": { },
+  "devDependencies": {
+    "nyc": "^14.1.1",
+    "mocha": "^6.2.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "npm test"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
