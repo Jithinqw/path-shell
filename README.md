@@ -24,7 +24,7 @@ console.log(pathShell.npmHistory(mode));
 //=>['const user = require('express')();']
 
 //get file contents of any file in $PATH
-Cost mode = 'array';
+const mode = 'array';
 console.log(pathShell.anyFile('.pgAdmin4.startup.log', mode));
 //<-----pg admin data-------->
 ```
