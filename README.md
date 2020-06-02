@@ -27,6 +27,10 @@ console.log(pathShell.npmHistory(mode));
 const mode = 'array';
 console.log(pathShell.anyFile('.pgAdmin4.startup.log', mode));
 //<-----pg admin data-------->
+
+// list files in the root folder
+console.log(pathShell.listFile());
+// ['npm.log', 'bashrc.log']
 ```
 
 Currently supports 
