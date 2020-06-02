@@ -7,7 +7,7 @@ const npmHistory = require('./lib/npmHistory'),
     anyfile = require('./lib/anyFile'),
     listFile = require('./lib/listFile'),
     fileSearch = require('./lib/fileSearch'),
-    const VERSION = "0.11.0",
+    const VERSION = "0.6.0",
     const AUTHOR = "Jithin Zacharia";
 
 const pathShell = {
