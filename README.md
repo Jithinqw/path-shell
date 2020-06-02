@@ -30,7 +30,8 @@ console.log(pathShell.anyFile('.pgAdmin4.startup.log', mode));
 
 // list files in the root folder
 console.log(pathShell.listFile());
-// ['npm.log', 'bashrc.log']
+// 'npm.log', 'bashrc.log'
+
 ```
 
 Currently supports 
