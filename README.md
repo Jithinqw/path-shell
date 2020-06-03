@@ -23,15 +23,18 @@ const mode= 'array'
 console.log(pathShell.npmHistory(mode));
 //=>['const user = require('express')();']
 
-//get file contents of any file in $PATH
+//get file contents of any file in root
 const mode = 'array';
 console.log(pathShell.anyFile('.pgAdmin4.startup.log', mode));
 //<-----pg admin data-------->
 
 // list files in the root folder
 console.log(pathShell.listFile());
-// 'npm.log', 'bashrc.log'
+// npm.log bashrc.log
 
+// search file in the root folder
+console.log(pathShell.fileSearch('py'));
+// demo.py
 ```
 
 Currently supports 
